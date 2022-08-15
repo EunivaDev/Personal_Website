@@ -13,6 +13,21 @@ function PageTransitions() {
             this.className += ' active-btn';
         })
     }
+
+    // Sections active class
+    allSections.addEventListener('click', e => {
+        const id = e.target.dataset.id;
+        if (id) {
+            // Remove selected from other btns
+            sectBtns.forEach((btn) => {
+                btn.classList.remove('active')
+            })
+            e.target.classList.add('active')
+
+            // Hide other sections
+            
+        }
+    })
 }
 
 PageTransitions();
