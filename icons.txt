@@ -4,3 +4,5 @@ Instagram:      <i class="fa-brands fa-instagram"></i>
 Discord:        <i class="fa-brands fa-discord"></i>
 Playstation:    <i class="fa-brands fa-playstation"></i>
 Email:          <i class="fa-solid fa-envelope"></i>
+
+http://127.0.0.1:5500/index.html
